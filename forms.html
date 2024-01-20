@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<h1>mini forms Main branch</h1>
+
+<body>
+    <table>
+        <form action="none">
+
+            <tr>
+                <td> <label for="username">username</label>
+                    <input type="text" placeholder="username" id="username">
+                </td>
+
+
+            </tr>
+            <tr>
+                <td> <label for="password">password</label>
+                    <input type="password" placeholder="password" id="password">
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="checkbox">
+                        <label for="agreed">agree for terms and conditions</label>
+                        <input type="checkbox" name="box" id="agreed">
+                    </div>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+
+
+
+        </form>
+    </table>
+    <hr>
+    <form target="blank" action="https://www.google.com/search">
+        <label for="google">google </label>
+        <input type="text" name="q" id="google" placeholder="google">
+        <button type="submit">search</button>
+    </form>
+    <br>
+    <form target="blank" action="https://www.youtube.com/results">
+        <label for="youtube">youtube </label>
+        <input type="text" name="search_query" id="youtube">
+        <button type="submit">search</button>
+    </form>
+    <h2>extra buttons</h2>
+    <form action="none">
+        <select name="month" id="months">
+            <optgroup label="--select month--">
+                <option value="1">jan</option>
+                <option value="2">feb</option>
+                <option value="3">march</option>
+            </optgroup>
+
+        </select>
+        <p>
+            <label for="req">any requests</label>
+            <br>
+            <textarea id="req" name="special req" rows="3" cols="15" placeholder="type your request"></textarea>
+        </p>
+    </form>
+
+
+
+</body>
+
+</html>
